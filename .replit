@@ -1,2 +1,2 @@
 language = "bash"
-run = "python 'Python/template.py' -m part-1 'main.txt'"
+run = "python 'Python/Day 5 - Hydrothermal Venture/hydrotherm.py' -m part-1 'Python/Day 5 - Hydrothermal Venture/main.txt'"
