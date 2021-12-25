@@ -73,6 +73,7 @@ if __name__ == '__main__':
             sys.exit(1)
         if len(sys.argv) > 3 and sys.argv[3] != '.':
             for file_name in sys.argv[3:]:
+                file_name = file_name.translate({ord("'") : None})
                 run_testcase(file_name, mode)
         else:
             for test_num in range(11):

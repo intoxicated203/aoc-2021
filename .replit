@@ -1,0 +1,2 @@
+language = "bash"
+run = "python 'Python/template.py' -m part-1 'main.txt'"
